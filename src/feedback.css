@@ -1,0 +1,29 @@
+.poll-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.good {
+  background-color: green;
+}
+
+.neutral {
+  background-color: orange;
+}
+
+.poor {
+  background-color: red;
+}
+
+button:hover {
+  opacity: 0.8;
+}

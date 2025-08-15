@@ -1,0 +1,16 @@
+.grid {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #f4f4f4;
+}
